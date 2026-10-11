@@ -1,0 +1,45 @@
+ 1.
+
+mkdir test_dir
+ls
+cd test_dir/
+touch example.txt
+ls
+mv example.txt renamed_example.txt
+ls
+
+ 2.
+
+cat /etc/passwd
+head -n 5 /etc/passwd
+tail -n 5 /etc/passwd
+
+ 3.
+
+cat /etc/passwd | grep 'root'
+
+ 4.
+
+ls
+zip -r test_dir.zip test_dir/
+ls
+unzip test_dir.zip -d unzipped_dir
+ls
+
+ 5.
+
+wget https://raw.githubusercontent.com/soumyapatra47-gif/Ecommerce-Project/refs/heads/main/index.html
+ls
+cat index.html
+
+ 6.
+
+touch secure.txt
+ls -al
+chmod 444 secure.txt
+ls -al
+
+ 7.
+
+export MY_VAR="Hello,Linux!"
+echo $MY_VAR
